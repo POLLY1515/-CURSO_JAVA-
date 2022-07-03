@@ -18,10 +18,21 @@ public class dateTeste {
 	  System.out.println("Imprimindo formatado:");
 	  System.out.println(dt.format(x1));
 	  System.out.println(dt2.format(x2));
-	  System.out.println("Imprimindo horário atual:");
+	  System.out.println("Imprimindo horário  e data atual:");
 	  Date x3 = new Date();
 	  System.out.println(dt2.format(x3));
+	  System.out.println("========================================================");
 	  
+	  Date data = new Date();
+	  System.out.println("Imprimindo data em milissegundos:" + data.getTime());
+	  System.out.println("Imprimindo dis do mês:" + data.getDate());
+	  System.out.println("Imprimindo a hora do dia:" + data.getHours());
+	  System.out.println("Imprimindo os minutos do dia:" + data.getMinutes());
+	  System.out.println("Imprimindo o ano:" + (data.getYear()+ 1900));
+
+
+
+
 
 
 		}
